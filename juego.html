@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Juego Batman</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scale=no">
+	
+<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilobase_m.css" media="screen and (min-width:769px)">
+
+	<link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:481px) and (max-width:768px) ">
+
+	<link type="text/css" rel="stylesheet" href="css/movil.css" media="screen and (max-width:480px) ">
+
+ <link rel="stylesheet" href="css/menu.css" />
+	 <img id="bannerjuego" src="img/bannerjuego.jpg"/>
+
+</head>
+<body onkeydown="whichButton(event)">
+
+<nav>
+<ul>
+    <li><a title="Opcion 1" href="index.html">Inicio</a></li>
+    <li><a title="Opcion 2" href="reglas.html">Reglas</a></li>
+    <li><a title="Opcion 3" href="juego.html">Juego</a></li>
+    <li><a title="Opcion 4" href="personajes.html">Personajes</a></li>
+    <li><a title="Opcion 5" href="creadores.html">Creadores</a></li>
+     <li><a title="Opcion 6" href="comentarios.html">Contacto</a></li>
+</ul>
+</ul>
+</nav>
+
+
+<section id="content2">
+<div id="informacion">
+	<label id="pjugador1">Puntaje Jugador 1</label> <br>
+<label id="pjugador1">xXxXxX</label><br>
+<label id="pjugador1">Puntaje Jugador 2</label> <br>
+<label id="pjugador1">oOoOo</label>
+<br>
+<br>
+<label id="pjugador1">Cronometro</label><br>
+<label id="pjugador1">00:00:00</label>
+</div>
+
+			<div class="row show-grid">
+
+ <img id="ima" src="img/batmancaminando.gif" display ="false" />
+
+ <div id="contenedor" class="col-md-6" >
+ <canvas id="imagen" width="800px" height="460px"></canvas>
+ <span id="texto" ></span>
+ </div>
+
+ </div>
+ </div>
+ <script type="text/javascript" src="js/carro.js"></script>
+		</section>
+	<footer>
+			&copy; copyright. | All right reserved. | Juego batman 2016.
+		</footer>
+
+</body>
+</html>
