@@ -67,15 +67,15 @@ carro();
 
 
 break;
-x=x-5;//mueve la nave 5 pixeles a la izquierda
 case 37:
+x=x-5;//mueve la nave 5 pixeles a la izquierda
 if (x < 10) {
 	x = 10;
 }
 
 carro();
 
-//break;
+break;
 //case 38:
 
 
